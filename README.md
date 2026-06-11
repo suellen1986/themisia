@@ -1,7 +1,7 @@
-# THEMISIA – Auditoria Interna SOX · Petrobras
+# THEMISIA – Auditoria Interna SOX · Empresa X
 ## Documentação Técnica do Projeto
  
-> *THEMISIA — nome inspirado em Themis, deusa grega da justiça e conformidade. IA integrada para aumentar produtividade e tempestividade na Certificação SOX da Petrobras.*
+> *THEMISIA — nome inspirado em Themis, deusa grega da justiça e conformidade. IA integrada para aumentar produtividade e tempestividade na Certificação SOX da Empresa X.*
  
 > **Projeto:** THEMISIA – Automação da Auditoria Interna SOX  
 > **Versão:** 1.4  
@@ -31,7 +31,7 @@
  
 ## 1. Visão Geral
  
-THEMISIA automatiza o ciclo completo de certificação SOX da Petrobras em três módulos integrados:
+THEMISIA automatiza o ciclo completo de certificação SOX da Empresa X em três módulos integrados:
  
 | Módulo | Nome | Status |
 |--------|------|--------|
@@ -43,7 +43,7 @@ THEMISIA automatiza o ciclo completo de certificação SOX da Petrobras em três
 - Zero instalação — abre direto no navegador
 - CPT carregado automaticamente do GitHub
 - Sem API externa obrigatória
-- Identidade visual Petrobras (azul `#003087`, amarelo `#F5A800`, verde `#009B3A`)
+- Identidade visual Empresa X (azul `#003087`, amarelo `#F5A800`, verde `#009B3A`)
 ---
  
 ## 2. Arquitetura
@@ -254,7 +254,7 @@ A função `buildValidacaoPopulacao()` lê **Desc. Extração** (col. 62) e gera
  
 ## 9. Tabela de Amostragem SOX
  
-PCAOB AS 2301 / Guia SOX Petrobras:
+PCAOB AS 2301 / Guia SOX Empresa X:
  
 | Frequência | Amostras |
 |------------|---------|
@@ -273,7 +273,7 @@ PCAOB AS 2301 / Guia SOX Petrobras:
  
 | Tecnologia | Finalidade |
 |-----------|-----------|
-| HTML5 + CSS3 | Interface — identidade visual Petrobras |
+| HTML5 + CSS3 | Interface — identidade visual Empresa X |
 | JavaScript ES5 | Lógica da aplicação (sem framework) |
 | SheetJS (xlsx.js) 0.18.5 | Leitura do CPT.xlsx (embutido no HTML) |
 | PDF.js 3.4.120 | Extração de texto de PDFs (CDN, opcional) |
@@ -328,7 +328,7 @@ themisia/  (GitHub: suellen1986/themisia)
 | 1.1 | Jun/2026 | Atributos derivados da Situação Atual; CPT auto-carregado; rebatizado THEMISIA |
 | 1.2 | Jun/2026 | Validação da População; FT editável; Constatações Críticas; Sugestões de Plano de Ação |
 | 1.3 | Jun/2026 | Módulo 2 (Revisor AI — DOM + PDF); Módulo 3 (Painel de Metas v1) |
-| 1.4 | Jun/2026 | Módulo 3 corrigido (IDs únicos, storage global, painel "Todos" com KPIs); identidade visual Petrobras (logo BR, azul #003087, amarelo #F5A800) |
+| 1.4 | Jun/2026 | Módulo 3 corrigido (IDs únicos, storage global, painel "Todos" com KPIs); identidade visual Empresa X (logo BR, azul #003087, amarelo #F5A800) |
  
 ---
  
@@ -336,14 +336,14 @@ themisia/  (GitHub: suellen1986/themisia)
  
 | Termo | Definição |
 |-------|-----------|
-| **ADC** | Auditores De Campo — auditoria externa da Petrobras |
+| **ADC** | Auditores De Campo — auditoria externa da Empresa X |
 | **Atributo de Teste** | Pergunta SIM/NÃO respondível por evidência, derivada da Situação Atual |
 | **BDOC** | Banco de Dados de Consolidação |
 | **CPT** | Controle de Processo e Tecnologia — documento do controle SOX no sistema RAI |
 | **DCC** | Demonstrações Contábeis Consolidadas |
 | **Folha de Teste** | Documento padronizado para registro dos resultados do teste |
 | **Constatação Crítica** | Falha ou oportunidade de melhoria registrada formalmente |
-| **RAI** | Sistema de Registro e Acompanhamento Integrado — plataforma SOX Petrobras |
+| **RAI** | Sistema de Registro e Acompanhamento Integrado — plataforma SOX Empresa X |
 | **RPA** | Relatório Preliminar de Auditoria |
 | **SOX** | Sarbanes-Oxley Act |
 | **Tamanho Amostral** | Quantidade de evidências a testar (PCAOB AS 2301) |
@@ -351,5 +351,5 @@ themisia/  (GitHub: suellen1986/themisia)
  
 ---
  
-*THEMISIA · Auditoria Interna Petrobras · Certificação SOX 2026*  
+*THEMISIA · Auditoria Interna Empresa X · Certificação SOX 2026*  
 *HTML5 + JavaScript ES5 + SheetJS + PDF.js + GitHub Pages*
